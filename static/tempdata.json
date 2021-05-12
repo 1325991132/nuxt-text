@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "msg": "临时项目数据",
+    "data": {
+        "msg": "临时项目数据",
+        "title": "asyncData数据加载",
+        "desc": "在about页面演示asyncData的使用"
+    }
+}
