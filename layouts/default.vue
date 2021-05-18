@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nuxt />
-    <h1>这里是默认布局内容</h1>
+    <!-- <h1>这里是默认布局内容</h1> -->
   </div>
 </template>
 

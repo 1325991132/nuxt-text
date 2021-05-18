@@ -1,1 +1,45 @@
-*{margin:0;padding: 0;}
+*{outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+html{-webkit-text-size-adjust:100%; background-color: #bfbfbf;}
+body{padding:0;margin:0 auto;font:16px/1.6 "Microsoft YaHei",Arial;color:#fff;-webkit-text-size-adjust:none;-webkit-tap-highlight:transparent;}
+input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:none}
+aside,dd,div,dl,dt,figure,form,li,ol,ul{padding:0;margin:0}
+ul, ol {list-style:none}
+h1,h2,h3,h4,h5,h6 {font-weight: 500; line-height: 1.2; margin: 0; color: #fff;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed}
+table td{border-collapse:collapse;font-size:1px}
+input,select,textarea{font-size:14px;color:#333;border-radius:0;-webkit-border-radius:0;font-family:"Microsoft YaHei"}
+img{border:none;max-width:100%;vertical-align:middle}
+a{color:#333;text-decoration:none;-webkit-tap-highlight-color:transparent; -webkit-transition: 0.3s ease; transition: 0.3s ease;}
+a:hover{color: #ef8404;}
+a:focus{color:#fff;outline:0;-moz-outline:none}
+a:active{color:#fff}
+pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;margin:0;font-family:"Microsoft YaHei";text-align:justify;text-justify:inter-ideograph}
+object{border:none;max-width:100%;border:0;overflow:hidden;vertical-align:middle}
+.clear{clear:both;height:0;overflow:hidden;zoom:0}
+.clearfix:after{content:"\200B";display:block;height:0;clear:both}
+.dot{display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6 {display:-webkit-box;display:flex;overflow:hidden;text-overflow:ellipsis;word-break:break-word;-webkit-box-orient:vertical;}
+.dot2{-webkit-line-clamp:2}
+.dot3{-webkit-line-clamp:3}
+.dot4{-webkit-line-clamp:4}
+.dot5{-webkit-line-clamp:5}
+.dot6{-webkit-line-clamp:6}
+.ytable{display:table;table-layout:fixed;width: 100%;}
+.ytable-cell{display:table-cell;vertical-align:middle;width: 100%;}
+.ytable-cell-wauto{display:table-cell;vertical-align:middle;}
+.bg_cover{display: block; width: 100%; background-size:cover;background-position:center center;background-repeat:no-repeat}
+.bg_contain{background-size:contain;background-position:center center;background-repeat:no-repeat}
+.hide{display:none}
+.hidden {overflow: hidden;}
+
+
+.ani-image {overflow: hidden; display: block;}
+.ani-image .bg_cover {-webkit-transition: 0.4s ease; transition: 0.4s ease;}
+@media (max-width: 768px) {
+  body {font-size: 14px;}
+  .Pages .p_page .num {display: none;}
+}

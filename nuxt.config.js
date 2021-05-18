@@ -19,8 +19,10 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'element-ui/lib/theme-chalk/index.css',
-    '~assets/css/reset.css',
-    '~assets/main.css'
+    '~/assets/css/reset.css',
+    '~/assets/css/css_whir.css',
+    'animate.css/animate.css',
+    '~/assets/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -37,8 +39,15 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/toast'
+    '@nuxtjs/toast',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    // scss: './assets/variables.scss',
+    // less: './assets/**/*.less',
+    // sass: ... 需要什么配置什么，这里是全局的
+    stylus:'./assets/stylus/global.styl'
+  },
   toast:{
     position:'top-center',
     duration: 2000

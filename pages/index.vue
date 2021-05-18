@@ -1,20 +1,27 @@
 <template>
   <div class="container">
-    <div>
+    <mylayout></mylayout>
+    <!-- <div>
       <Logo />
       <h1>nuxt project</h1>
       <ul>
         <li><nuxt-link :to="{name:'about',query:{id:456}}">about</nuxt-link></li>
         <li><nuxt-link :to="{name:'news',params:{xid:123}}">news</nuxt-link></li>
+        <li><nuxt-link :to="{name:'test',params:{xid:123}}">test</nuxt-link></li>
         <li><a href="/news/4567">动态路由</a></li>
         <li><nuxt-link :to="{name:'err',params:{xid:123}}">跳转到错误页面</nuxt-link></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-export default {};
+import mylayout from './layout/index.vue'
+export default {
+  components: {
+    mylayout,
+  },
+};
 </script>
 
 <style>

@@ -40,5 +40,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
+h2 {
+  color: $default-color;
+}
 </style>
