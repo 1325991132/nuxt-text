@@ -1,3 +1,5 @@
+# 第一次使用nuxt制作网站
+
 # nuxt-text
 
 ## Build Setup
